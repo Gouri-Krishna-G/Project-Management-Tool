@@ -1,0 +1,71 @@
+.textfeild {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    padding: 3.5px;
+    outline: none;
+    border: none;
+    border-radius: 1px;
+    background-color:aliceblue;
+}
+
+.button {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ; 
+    font-weight: 300; 
+    font-size: 1.2rem; 
+    padding: 0.2rem 0.4rem;
+    cursor: pointer;
+    border-radius: 8px; 
+}
+
+.blue {
+    background-color: #b3e0ff; 
+    color:black;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.blue:hover {
+    background-color: #66a3fa; 
+}
+
+.red {
+    background-color: #ffb3b3; 
+    color: black;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.red:hover {
+    background-color: #fa6666; 
+}
+
+.green {
+    background-color: #b3ffb3; 
+    color:black;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.green:hover {
+    background-color: #66fa66; 
+}
+
+.text {
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 1.2rem; 
+    padding: 0.2rem 0.5rem; 
+}
+
+.id {
+    color: #666; 
+}
+
+.hidden {
+    display: none;
+}
+
+::-webkit-scrollbar {
+    width: 0.5em;
+    background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #333;
+}
