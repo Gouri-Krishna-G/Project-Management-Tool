@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;1,300;1,400&family=Noto+Serif+Khojki:wght@400;500&family=Poppins:wght@300;400;500&display=swap');
+
+/* 
+font-family: 'Barlow', sans-serif;
+font-family: 'Noto Serif Khojki', serif;
+font-family: 'Poppins', sans-serif;
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --dark: #2a0317;
+    --white: #f5f5f5;
+    --blue: #07A3EE;
+}
+
+body {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    background-color: #1c1332;
+    color: white;
+    letter-spacing: 1px;
+    text-align: center;
+    height: 50px;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+
+.container {
+    width: 500px;
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-self: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.subcontainer {
+    margin-top: 4rem;
+    width: 450px;
+    padding: 2rem 2rem;
+    border-radius: 33px;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(66,108,166,0.47111344537815125) 100%);
+}
+
+.newuser{
+    font-size: large;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.selectuser {
+    cursor: pointer;
+    width: 265px;
+    height: 30px;
+    font-size:large;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkgray;
+    border: 1px solid #ccc;
+}
+
+.listcentre{
+    text-align: center;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.selectuser::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.64rem 0.8rem;
+    color: white;
+    background-color: darkgray;
+    cursor: pointer;
+    pointer-events: none;
+    transition: all var(--transition-time) ease;
+}
+.selectuser:hover::after {
+    color: rgb(2, 2, 87);
+}
+
+.perform{
+    width: 450px;
+}
+
+
+.result {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.result-container {
+    width: 80%;
+}
+
+.result-container ul {
+    margin: 2rem 1rem;
+    cursor: pointer;
+    padding: 1rem 1.8rem;
+    border-radius: 31px;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(66,108,166,0.47111344537815125) 100%)
+}
+
+.result-container ul li {
+    list-style: none;
+    color: #1a202b;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
